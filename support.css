@@ -1,0 +1,103 @@
+body {
+
+    background-size: 300% ;
+    background-position: center;
+    background-image: url('sup.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+table {
+    width: 100%;
+    background-image: url('space.jpg');
+    height: 160px;
+    background-repeat: repeat-x;
+    border-bottom: 5px solid white;
+}
+
+table td {
+    font-size: 40px;
+    padding: 50px ;
+    text-align: center;
+    font-weight: bold;
+}
+
+table td a {
+    text-decoration: none;
+    color: white;
+}
+
+table td a:hover {
+    font-size: 43px;
+    transition: 0.4s;
+    color: rgb(48, 226, 226);
+    border: 5px groove rgb(48, 226, 226) ;
+    padding: 5px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+fieldset {
+    background-color: rgb(46, 172, 204);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px ;
+    height: 600px;
+}
+
+fieldset legend {
+    color: rgb(43, 209, 173);
+    font-size: 40px ;
+    box-shadow: 0px 15px 25px black;
+    background-color: black;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    background-image: url('space.jpg');
+    border: 3px solid black;
+}
+
+#penzek {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    background-image: url('space.jpg');
+    border: 3px solid black;
+}
+
+#penzek:hover {
+    background-color: black;
+}
+
+#gomb {
+    box-shadow: 5px 15px 25px black;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 20px ;
+    float: right;
+    position: relative;
+    top:  200px;
+}
+
+#gomb:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    width: 130px;
+    height: 45px ;
+    font-size: 25px;
+}

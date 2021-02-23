@@ -1,0 +1,55 @@
+body {
+    background-image: url('space.jpg');
+    overflow: hidden;
+}
+
+.snake {
+    height: 400px;
+    margin-top: 300px;
+    margin: auto;
+    width: 400px;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    background-image: linear-gradient(rgb(44, 35, 21), rgb(0, 0, 0));
+    height: 920px;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    margin-bottom: 100px;
+}
+
+table {
+    width: 100%;
+    background-image: url('space.jpg');
+    height: 160px;
+    background-repeat: repeat-x;
+    border-bottom: 5px solid white;
+}
+
+table td {
+    font-size: 40px;
+    padding: 50px ;
+    text-align: center;
+    font-weight: bold;
+}
+
+table td a {
+    text-decoration: none;
+    color: white;
+}
+
+table td a:hover {
+    font-size: 43px;
+    transition: 0.4s;
+    color: rgb(48, 226, 226);
+    border: 5px groove rgb(48, 226, 226) ;
+    padding: 5px;
+    border-radius: 25px 25px 25px 25px;
+}
